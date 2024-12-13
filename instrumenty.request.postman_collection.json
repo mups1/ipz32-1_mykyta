@@ -1,0 +1,154 @@
+{
+    "info": {
+      "name": "Custom Collection",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "GET Requests",
+        "item": [
+          {
+            "name": "GET yes",
+            "request": {
+              "method": "GET",
+              "url": {
+                "raw": "{{baseUrl}}/yes?value=1&description=topor",
+                "host": ["{{baseUrl}}"],
+                "path": ["yes"],
+                "query": [
+                  { "key": "value", "value": "1" },
+                  { "key": "description", "value": "topor" }
+                ]
+              }
+            }
+          },
+          {
+            "name": "GET yep",
+            "request": {
+              "method": "GET",
+              "url": {
+                "raw": "{{baseUrl}}/yep?value=2&description=molotok",
+                "host": ["{{baseUrl}}"],
+                "path": ["yep"],
+                "query": [
+                  { "key": "value", "value": "2" },
+                  { "key": "description", "value": "molotok" }
+                ]
+              }
+            }
+          },
+          {
+            "name": "GET yup",
+            "request": {
+              "method": "GET",
+              "url": {
+                "raw": "{{baseUrl}}/yup?value=3&description=kuvalda",
+                "host": ["{{baseUrl}}"],
+                "path": ["yup"],
+                "query": [
+                  { "key": "value", "value": "3" },
+                  { "key": "description", "value": "kuvalda" }
+                ]
+              }
+            }
+          },
+          {
+            "name": "GET yeah",
+            "request": {
+              "method": "GET",
+              "url": {
+                "raw": "{{baseUrl}}/yeah?value=4&description=shurup",
+                "host": ["{{baseUrl}}"],
+                "path": ["yeah"],
+                "query": [
+                  { "key": "value", "value": "4" },
+                  { "key": "description", "value": "shurup" }
+                ]
+              }
+            }
+          },
+          {
+            "name": "GET yef",
+            "request": {
+              "method": "GET",
+              "url": {
+                "raw": "{{baseUrl}}/yef?value=5&description=gaika",
+                "host": ["{{baseUrl}}"],
+                "path": ["yef"],
+                "query": [
+                  { "key": "value", "value": "5" },
+                  { "key": "description", "value": "gaika" }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "POST Requests",
+        "item": [
+          {
+            "name": "POST fff",
+            "request": {
+              "method": "POST",
+              "header": [{ "key": "Content-Type", "value": "application/json" }],
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"key\": \"fff\", \"value\": 6, \"description\": \"bolt\" }"
+              },
+              "url": "{{baseUrl}}/fff"
+            }
+          },
+          {
+            "name": "POST auf",
+            "request": {
+              "method": "POST",
+              "header": [{ "key": "Content-Type", "value": "application/json" }],
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"key\": \"auf\", \"value\": 7, \"description\": \"tesak\" }"
+              },
+              "url": "{{baseUrl}}/auf"
+            }
+          },
+          {
+            "name": "POST men",
+            "request": {
+              "method": "POST",
+              "header": [{ "key": "Content-Type", "value": "application/json" }],
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"key\": \"men\", \"value\": 8, \"description\": \"molot\" }"
+              },
+              "url": "{{baseUrl}}/men"
+            }
+          },
+          {
+            "name": "POST tyy",
+            "request": {
+              "method": "POST",
+              "header": [{ "key": "Content-Type", "value": "application/json" }],
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"key\": \"tyy\", \"value\": 9, \"description\": \"serp\" }"
+              },
+              "url": "{{baseUrl}}/tyy"
+            }
+          },
+          {
+            "name": "POST nah",
+            "request": {
+              "method": "POST",
+              "header": [{ "key": "Content-Type", "value": "application/json" }],
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"key\": \"nah\", \"value\": 10, \"description\": \"banka\" }"
+              },
+              "url": "{{baseUrl}}/nah"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
